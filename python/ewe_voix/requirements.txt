@@ -1,0 +1,7 @@
+flask>=3.0
+torch
+transformers
+accelerate
+sentencepiece
+numpy
+soundfile

@@ -1,0 +1,50 @@
+<?php
+
+return [
+    'accepted' => 'Le champ :attribute doit être accepté.',
+    'confirmed' => 'La confirmation du champ :attribute ne correspond pas.',
+    'email' => 'Le champ :attribute doit être une adresse e-mail valide.',
+    'exists' => 'Le champ :attribute sélectionné est invalide.',
+    'image' => 'Le fichier :attribute doit être une image.',
+    'in' => 'Le champ :attribute est invalide.',
+    'integer' => 'Le champ :attribute doit être un entier.',
+    'max' => [
+        'numeric' => 'Le champ :attribute ne peut pas dépasser :max.',
+        'file' => 'Le fichier :attribute ne peut pas dépasser :max kilo-octets.',
+        'string' => 'Le champ :attribute ne peut pas dépasser :max caractères.',
+    ],
+    'min' => [
+        'numeric' => 'Le champ :attribute doit être au moins :min.',
+        'string' => 'Le champ :attribute doit contenir au moins :min caractères.',
+    ],
+    'numeric' => 'Le champ :attribute doit être un nombre.',
+    'regex' => 'Le format du champ :attribute est invalide.',
+    'required' => 'Le champ :attribute est obligatoire.',
+    'required_if' => 'Le champ :attribute est obligatoire dans ce cas.',
+    'string' => 'Le champ :attribute doit être une chaîne de caractères.',
+    'unique' => 'Cette valeur de :attribute est déjà utilisée.',
+    'date' => 'Le champ :attribute doit être une date valide.',
+    'before_or_equal' => 'Le champ :attribute doit être une date antérieure ou égale à :date.',
+    'between' => [
+        'numeric' => 'Le champ :attribute doit être compris entre :min et :max.',
+    ],
+
+    'attributes' => [
+        'name' => 'nom',
+        'email' => 'e-mail',
+        'password' => 'mot de passe',
+        'phone' => 'téléphone',
+        'quartier' => 'quartier',
+        'role' => 'profil',
+        'quantity' => 'quantité',
+        'seller_price' => 'prix souhaité',
+        'min_price' => 'prix minimum',
+        'harvested_on' => 'date de récolte',
+        'shelf_days' => 'durée de conservation',
+        'freshness' => 'fraîcheur',
+        'product_id' => 'produit',
+        'photo' => 'photo',
+        'comment' => 'commentaire',
+        'decision' => 'décision',
+    ],
+];
